@@ -1,0 +1,15 @@
+XML Ejemplo
+
+<?xml version="1.0" ?>
+<vehiculos>
+	<vehiculos_trac_mec>
+		<marca>Ford
+			<modelo>fiesta</modelo>
+			<edicion>titanium</edicion>
+			<año>2010</año>
+			<numero_de_puertas>3</numero_de_puertas>
+			<peso>2000kg</peso>
+		</marca>
+		<matricula>hfh8gsx</matricula>
+	</vehiculos_trac_mec>
+</Vehiculos>

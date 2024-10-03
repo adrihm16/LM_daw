@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura num="9992">
+        <cliente Nombre= "josé rodríguez" telefono="910101010"/>
+        <datos_factura>
+            <articulos>
+                <articulo ref="A101">
+                    <descripcion>placa base QDI</descripcion>
+                    <cantidad>1</cantidad>
+                    <precio>230</precio>
+                </articulo>
+                <articulo ref="A105">
+                    <descripcion>DIMM DDR 512mb</descripcion>
+                    <cantidad>4</cantidad>
+                    <precio>110</precio>
+                </articulo>
+                <articulo ref="A107">
+                    <descripcion>placa base QDI</descripcion>
+                    <cantidad>1</cantidad>
+                    <precio>150</precio>
+                </articulo>
+            </articulos>
+        </datos_factura>
+    </factura>
+</facturas>
