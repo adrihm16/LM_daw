@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <persona>
+        <nombre>Adrian</nombre>
+        <apellidos>
+            <primer_apellido>Herrera</primer_apellido>
+            <segund_apellido>Morales</segund_apellido>
+        </apellidos>
+        <direccion>
+            <via tipo = "calle">Cádiz</via>
+                        <num>19</num>
+                        <municipio>Conil</municipio>
+                        <cod_postal>11140</cod_postal>
+        </direccion>
+        <telefono>
+            <telef_casa>787954738</telef_casa>
+            <telef_movil>686743195</telef_movil>
+            <telef_trabajo>686046328</telef_trabajo>
+        </telefono>
+    </persona>
+
+</agenda>
