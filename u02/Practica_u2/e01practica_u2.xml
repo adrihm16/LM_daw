@@ -8,9 +8,9 @@
         </apellidos>
         <direccion>
             <via tipo = "calle">Cádiz</via>
-                        <num>19</num>
-                        <municipio>Conil</municipio>
-                        <cod_postal>11140</cod_postal>
+                <num>19</num>
+                <municipio>Conil</municipio>
+                <cod_postal>11140</cod_postal>
         </direccion>
         <telefono>
             <telef_casa>787954738</telef_casa>
@@ -18,5 +18,4 @@
             <telef_trabajo>686046328</telef_trabajo>
         </telefono>
     </persona>
-
 </agenda>
