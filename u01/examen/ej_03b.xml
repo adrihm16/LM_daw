@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viajes>
+	<destino pais="Francia"/>
+<!--Esta etiqueta no estaba cerrada-->
+	<ciudad>París</ciudad>
+	<hotel="Le Grand">
+<!--Esta etiqueta estaba cerrada dos veces-->
+		<categoria>5 estrellas</categoria>
+		<habitacion tipo="doble">
+		<vistas>ciudad</vistas>
+		<precio>250</precio>
+		</habitacion>
+	</hotel>
+	<actividad>Visita a la Torre Eiffel</actividad>
+	<actividad2>Crucero por el Sena</actividad2>
+</viajes>
