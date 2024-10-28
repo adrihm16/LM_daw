@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viajes [
+    <!ELEMENT viajes (austria, italia, francia)>
+    <!ELEMENT austria (viena)>
+    <!ELEMENT viena (#PCDATA)>
+    <!ELEMENT italia (florencia, roma, venecia)>
+    <!ELEMENT florencia (#PCDATA)>
+    <!ELEMENT roma (#PCDATA)>
+    <!ELEMENT venecia (#PCDATA)>
+    <!ELEMENT francia (paris*)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<viajes>
+    <austria>
+        <viena />
+    </austria>
+    <italia>
+        <florencia />
+        <roma />
+        <venecia />
+    </italia>
+    <francia />
+</viajes>
