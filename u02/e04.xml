@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mensaje>
-    <remite email="juan@gmail.com" nombre="juan"/>
-    <destinatarioemail="pepe@gmail.com" nombre="pepe"/>
-    <asunto>Felicitacion</asunto>
-    <parrafo>Felicidades por tu ascenso</parrafo>
-    <parrafo>Un saludo</parrafo>
-<!--comentario-->
-</mensaje>
