@@ -7,7 +7,7 @@ function validaForm() {
     let dir = document.getElementById("direccion").value;
     let tel = document.getElementById("telefono").value;
     let piz = document.getElementById("pizza").value;
-    if(null == dir || dir.length < 3) {
+    if (null == dir || dir.length < 3) {
         valid = false;
         //console.log("la direccion no es válida");
     }
@@ -22,4 +22,28 @@ function validaForm() {
         //console.log("no ha escogido ninguna pizza");
     }
     return valid;
+}
+function calcularPrecio() {
+    let piz = document.getElementById("pizza").value;
+    let cantidad = Number(document.getElementById("cantidad").value);
+    let precioTot = 0;
+    let precioUnidad = 0;
+    switch (piz) {
+        case 'barbacoa':
+            precioUnidad = 13;
+            break;
+        case 'carbonara':
+            precioUnidad = 12;
+            break;
+        case 'cuatroquesos':
+            precioUnidad = 10;
+            break;
+        case 'delahuerta':
+            precioUnidad = 11;
+            break;
+    }
+    precioTot = precioUnidad * cantidad;
+    console.log(precioTot);
+    const div = document.getElementById("resultado");
+    div.textContent = precioTot;
 }
